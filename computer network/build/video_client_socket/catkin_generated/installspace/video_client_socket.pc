@@ -1,0 +1,8 @@
+prefix=/home/jialong03/桌面/jiwang/CV/computer network/install
+
+Name: video_client_socket
+Description: Description of video_client_socket
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

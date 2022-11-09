@@ -1,0 +1,2 @@
+video_client_socket:video_socket_read
+-DCATKIN_DEVEL_PREFIX=/home/jialong03/桌面/jiwang/CV/computer network/devel -DCMAKE_INSTALL_PREFIX=/home/jialong03/桌面/jiwang/CV/computer network/install -G Unix Makefiles
