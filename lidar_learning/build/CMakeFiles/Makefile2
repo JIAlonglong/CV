@@ -2600,6 +2600,24 @@ clean: hector_slam/hector_marker_drawing/CMakeFiles/visualization_msgs_generate_
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory location
+
+# Convenience name for "all" pass in the directory.
+location/all:
+
+.PHONY : location/all
+
+# Convenience name for "clean" pass in the directory.
+location/clean:
+
+.PHONY : location/clean
+
+# Convenience name for "preinstall" pass in the directory.
+location/preinstall:
+
+.PHONY : location/preinstall
+
+#=============================================================================
 # Directory level rules for directory hector_slam/hector_compressed_map_transport
 
 # Convenience name for "all" pass in the directory.
@@ -6104,6 +6122,24 @@ urg_node/CMakeFiles/urg_node_driver.dir/clean:
 clean: urg_node/CMakeFiles/urg_node_driver.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory xiangquancars
+
+# Convenience name for "all" pass in the directory.
+xiangquancars/all:
+
+.PHONY : xiangquancars/all
+
+# Convenience name for "clean" pass in the directory.
+xiangquancars/clean:
+
+.PHONY : xiangquancars/clean
+
+# Convenience name for "preinstall" pass in the directory.
+xiangquancars/preinstall:
+
+.PHONY : xiangquancars/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

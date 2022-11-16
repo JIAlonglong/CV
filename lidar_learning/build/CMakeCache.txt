@@ -564,6 +564,12 @@ laser_proc_DIR:PATH=/opt/ros/melodic/share/laser_proc/cmake
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libliburg_c.so
 
+//Value Computed by CMake
+location_BINARY_DIR:STATIC=/home/tianbot/github/ros/lidar_learning/build/location
+
+//Value Computed by CMake
+location_SOURCE_DIR:STATIC=/home/tianbot/github/ros/lidar_learning/src/location
+
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
 
@@ -581,6 +587,18 @@ nodelet_DIR:PATH=/opt/ros/melodic/share/nodelet/cmake
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
+
+//Value Computed by CMake
+quanxiangcar_BINARY_DIR:STATIC=/home/tianbot/github/ros/lidar_learning/build/quanxiangcar
+
+//Value Computed by CMake
+quanxiangcar_SOURCE_DIR:STATIC=/home/tianbot/github/ros/lidar_learning/src/quanxiangcar
+
+//Value Computed by CMake
+quanxianglun_BINARY_DIR:STATIC=/home/tianbot/github/ros/lidar_learning/build/quanxianglun
+
+//Value Computed by CMake
+quanxianglun_SOURCE_DIR:STATIC=/home/tianbot/github/ros/lidar_learning/src/quanxianglun
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
@@ -662,6 +680,12 @@ urg_node_driver_LIB_DEPENDS:STATIC=general;urg_c_wrapper;general;/opt/ros/melodi
 
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/melodic/share/visualization_msgs/cmake
+
+//Value Computed by CMake
+xiangquancars_BINARY_DIR:STATIC=/home/tianbot/github/ros/lidar_learning/build/xiangquancars
+
+//Value Computed by CMake
+xiangquancars_SOURCE_DIR:STATIC=/home/tianbot/github/ros/lidar_learning/src/xiangquancars
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
@@ -804,7 +828,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=19
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
