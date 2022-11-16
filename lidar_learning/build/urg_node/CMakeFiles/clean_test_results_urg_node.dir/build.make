@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tianbot/github/ros/lidar_learning/src
+CMAKE_SOURCE_DIR = /home/tianbot/github/CV/lidar_learning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tianbot/github/ros/lidar_learning/build
+CMAKE_BINARY_DIR = /home/tianbot/github/CV/lidar_learning/build
 
 # Utility rule file for clean_test_results_urg_node.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/tianbot/github/ros/lidar_learning/build
 include urg_node/CMakeFiles/clean_test_results_urg_node.dir/progress.make
 
 urg_node/CMakeFiles/clean_test_results_urg_node:
-	cd /home/tianbot/github/ros/lidar_learning/build/urg_node && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/tianbot/github/ros/lidar_learning/build/test_results/urg_node
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/tianbot/github/ros/lidar_learning/build/test_results/urg_node
 
 clean_test_results_urg_node: urg_node/CMakeFiles/clean_test_results_urg_node
 clean_test_results_urg_node: urg_node/CMakeFiles/clean_test_results_urg_node.dir/build.make
@@ -67,10 +67,10 @@ urg_node/CMakeFiles/clean_test_results_urg_node.dir/build: clean_test_results_ur
 .PHONY : urg_node/CMakeFiles/clean_test_results_urg_node.dir/build
 
 urg_node/CMakeFiles/clean_test_results_urg_node.dir/clean:
-	cd /home/tianbot/github/ros/lidar_learning/build/urg_node && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_urg_node.dir/cmake_clean.cmake
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_urg_node.dir/cmake_clean.cmake
 .PHONY : urg_node/CMakeFiles/clean_test_results_urg_node.dir/clean
 
 urg_node/CMakeFiles/clean_test_results_urg_node.dir/depend:
-	cd /home/tianbot/github/ros/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/ros/lidar_learning/src /home/tianbot/github/ros/lidar_learning/src/urg_node /home/tianbot/github/ros/lidar_learning/build /home/tianbot/github/ros/lidar_learning/build/urg_node /home/tianbot/github/ros/lidar_learning/build/urg_node/CMakeFiles/clean_test_results_urg_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tianbot/github/CV/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/CV/lidar_learning/src /home/tianbot/github/CV/lidar_learning/src/urg_node /home/tianbot/github/CV/lidar_learning/build /home/tianbot/github/CV/lidar_learning/build/urg_node /home/tianbot/github/CV/lidar_learning/build/urg_node/CMakeFiles/clean_test_results_urg_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : urg_node/CMakeFiles/clean_test_results_urg_node.dir/depend
 

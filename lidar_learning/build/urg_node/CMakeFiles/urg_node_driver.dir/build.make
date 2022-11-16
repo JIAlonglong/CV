@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tianbot/github/ros/lidar_learning/src
+CMAKE_SOURCE_DIR = /home/tianbot/github/CV/lidar_learning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tianbot/github/ros/lidar_learning/build
+CMAKE_BINARY_DIR = /home/tianbot/github/CV/lidar_learning/build
 
 # Include any dependencies generated for this target.
 include urg_node/CMakeFiles/urg_node_driver.dir/depend.make
@@ -58,17 +58,17 @@ include urg_node/CMakeFiles/urg_node_driver.dir/progress.make
 include urg_node/CMakeFiles/urg_node_driver.dir/flags.make
 
 urg_node/CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.o: urg_node/CMakeFiles/urg_node_driver.dir/flags.make
-urg_node/CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.o: /home/tianbot/github/ros/lidar_learning/src/urg_node/src/urg_node_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tianbot/github/ros/lidar_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object urg_node/CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.o"
-	cd /home/tianbot/github/ros/lidar_learning/build/urg_node && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.o -c /home/tianbot/github/ros/lidar_learning/src/urg_node/src/urg_node_driver.cpp
+urg_node/CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.o: /home/tianbot/github/CV/lidar_learning/src/urg_node/src/urg_node_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tianbot/github/CV/lidar_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object urg_node/CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.o"
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.o -c /home/tianbot/github/CV/lidar_learning/src/urg_node/src/urg_node_driver.cpp
 
 urg_node/CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.i"
-	cd /home/tianbot/github/ros/lidar_learning/build/urg_node && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tianbot/github/ros/lidar_learning/src/urg_node/src/urg_node_driver.cpp > CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.i
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tianbot/github/CV/lidar_learning/src/urg_node/src/urg_node_driver.cpp > CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.i
 
 urg_node/CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.s"
-	cd /home/tianbot/github/ros/lidar_learning/build/urg_node && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tianbot/github/ros/lidar_learning/src/urg_node/src/urg_node_driver.cpp -o CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.s
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tianbot/github/CV/lidar_learning/src/urg_node/src/urg_node_driver.cpp -o CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.s
 
 urg_node/CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.o.requires:
 
@@ -88,57 +88,57 @@ urg_node_driver_OBJECTS = \
 # External object files for target urg_node_driver
 urg_node_driver_EXTERNAL_OBJECTS =
 
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: urg_node/CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.o
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: urg_node/CMakeFiles/urg_node_driver.dir/build.make
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /home/tianbot/github/ros/lidar_learning/devel/lib/liburg_c_wrapper.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libdiagnostic_updater.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/liblaser_proc_library.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/liblaser_publisher.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/liblaser_transport.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/liblaser_proc_ROS.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libLaserProcNodelet.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libnodeletlib.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libbondcpp.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libclass_loader.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/libPocoFoundation.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libroslib.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/librospack.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libtf.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libtf2_ros.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libactionlib.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libmessage_filters.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libroscpp.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libtf2.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/librosconsole.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/librostime.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libliburg_c.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so: urg_node/CMakeFiles/urg_node_driver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tianbot/github/ros/lidar_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so"
-	cd /home/tianbot/github/ros/lidar_learning/build/urg_node && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/urg_node_driver.dir/link.txt --verbose=$(VERBOSE)
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: urg_node/CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.o
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: urg_node/CMakeFiles/urg_node_driver.dir/build.make
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /home/tianbot/github/CV/lidar_learning/devel/lib/liburg_c_wrapper.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libdiagnostic_updater.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/liblaser_proc_library.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/liblaser_publisher.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/liblaser_transport.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/liblaser_proc_ROS.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libLaserProcNodelet.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libnodeletlib.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libbondcpp.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libclass_loader.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/libPocoFoundation.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libroslib.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/librospack.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libtf.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libtf2_ros.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libactionlib.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libmessage_filters.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libroscpp.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libtf2.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/librosconsole.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/librostime.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: /opt/ros/melodic/lib/libliburg_c.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so: urg_node/CMakeFiles/urg_node_driver.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tianbot/github/CV/lidar_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so"
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/urg_node_driver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-urg_node/CMakeFiles/urg_node_driver.dir/build: /home/tianbot/github/ros/lidar_learning/devel/lib/liburg_node_driver.so
+urg_node/CMakeFiles/urg_node_driver.dir/build: /home/tianbot/github/CV/lidar_learning/devel/lib/liburg_node_driver.so
 
 .PHONY : urg_node/CMakeFiles/urg_node_driver.dir/build
 
@@ -147,10 +147,10 @@ urg_node/CMakeFiles/urg_node_driver.dir/requires: urg_node/CMakeFiles/urg_node_d
 .PHONY : urg_node/CMakeFiles/urg_node_driver.dir/requires
 
 urg_node/CMakeFiles/urg_node_driver.dir/clean:
-	cd /home/tianbot/github/ros/lidar_learning/build/urg_node && $(CMAKE_COMMAND) -P CMakeFiles/urg_node_driver.dir/cmake_clean.cmake
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && $(CMAKE_COMMAND) -P CMakeFiles/urg_node_driver.dir/cmake_clean.cmake
 .PHONY : urg_node/CMakeFiles/urg_node_driver.dir/clean
 
 urg_node/CMakeFiles/urg_node_driver.dir/depend:
-	cd /home/tianbot/github/ros/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/ros/lidar_learning/src /home/tianbot/github/ros/lidar_learning/src/urg_node /home/tianbot/github/ros/lidar_learning/build /home/tianbot/github/ros/lidar_learning/build/urg_node /home/tianbot/github/ros/lidar_learning/build/urg_node/CMakeFiles/urg_node_driver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tianbot/github/CV/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/CV/lidar_learning/src /home/tianbot/github/CV/lidar_learning/src/urg_node /home/tianbot/github/CV/lidar_learning/build /home/tianbot/github/CV/lidar_learning/build/urg_node /home/tianbot/github/CV/lidar_learning/build/urg_node/CMakeFiles/urg_node_driver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : urg_node/CMakeFiles/urg_node_driver.dir/depend
 

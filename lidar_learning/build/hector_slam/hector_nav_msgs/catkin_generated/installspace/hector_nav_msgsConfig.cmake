@@ -67,14 +67,14 @@ set(hector_nav_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(hector_nav_msgs_SOURCE_PREFIX /home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_nav_msgs)
-  set(hector_nav_msgs_DEVEL_PREFIX /home/tianbot/github/ros/lidar_learning/devel)
+  set(hector_nav_msgs_SOURCE_PREFIX /home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_nav_msgs)
+  set(hector_nav_msgs_DEVEL_PREFIX /home/tianbot/github/CV/lidar_learning/devel)
   set(hector_nav_msgs_INSTALL_PREFIX "")
   set(hector_nav_msgs_PREFIX ${hector_nav_msgs_DEVEL_PREFIX})
 else()
   set(hector_nav_msgs_SOURCE_PREFIX "")
   set(hector_nav_msgs_DEVEL_PREFIX "")
-  set(hector_nav_msgs_INSTALL_PREFIX /home/tianbot/github/ros/lidar_learning/install)
+  set(hector_nav_msgs_INSTALL_PREFIX /home/tianbot/github/CV/lidar_learning/install)
   set(hector_nav_msgs_PREFIX ${hector_nav_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tianbot/github/ros/lidar_learning/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/tianbot/github/CV/lidar_learning/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

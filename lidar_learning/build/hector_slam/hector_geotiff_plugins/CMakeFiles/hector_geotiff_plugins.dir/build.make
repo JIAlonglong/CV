@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tianbot/github/ros/lidar_learning/src
+CMAKE_SOURCE_DIR = /home/tianbot/github/CV/lidar_learning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tianbot/github/ros/lidar_learning/build
+CMAKE_BINARY_DIR = /home/tianbot/github/CV/lidar_learning/build
 
 # Include any dependencies generated for this target.
 include hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/depend.make
@@ -58,17 +58,17 @@ include hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir
 include hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/flags.make
 
 hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o: hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/flags.make
-hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o: /home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_geotiff_plugins/src/trajectory_geotiff_plugin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tianbot/github/ros/lidar_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o"
-	cd /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o -c /home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_geotiff_plugins/src/trajectory_geotiff_plugin.cpp
+hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o: /home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_geotiff_plugins/src/trajectory_geotiff_plugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tianbot/github/CV/lidar_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o"
+	cd /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o -c /home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_geotiff_plugins/src/trajectory_geotiff_plugin.cpp
 
 hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.i"
-	cd /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_geotiff_plugins/src/trajectory_geotiff_plugin.cpp > CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.i
+	cd /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_geotiff_plugins/src/trajectory_geotiff_plugin.cpp > CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.i
 
 hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.s"
-	cd /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_geotiff_plugins/src/trajectory_geotiff_plugin.cpp -o CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.s
+	cd /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_geotiff_plugins/src/trajectory_geotiff_plugin.cpp -o CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.s
 
 hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o.requires:
 
@@ -88,45 +88,45 @@ hector_geotiff_plugins_OBJECTS = \
 # External object files for target hector_geotiff_plugins
 hector_geotiff_plugins_EXTERNAL_OBJECTS =
 
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/build.make
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /home/tianbot/github/ros/lidar_learning/devel/lib/libgeotiff_writer.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/libclass_loader.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/libPocoFoundation.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/libroslib.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/librospack.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/libroscpp.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/librosconsole.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/librostime.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
-/home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so: hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tianbot/github/ros/lidar_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so"
-	cd /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hector_geotiff_plugins.dir/link.txt --verbose=$(VERBOSE)
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/build.make
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /home/tianbot/github/CV/lidar_learning/devel/lib/libgeotiff_writer.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/libclass_loader.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/libPocoFoundation.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/libroslib.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/librospack.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/libroscpp.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/librosconsole.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/librostime.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
+/home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so: hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tianbot/github/CV/lidar_learning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so"
+	cd /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hector_geotiff_plugins.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/build: /home/tianbot/github/ros/lidar_learning/devel/lib/libhector_geotiff_plugins.so
+hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/build: /home/tianbot/github/CV/lidar_learning/devel/lib/libhector_geotiff_plugins.so
 
 .PHONY : hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/build
 
@@ -135,10 +135,10 @@ hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/require
 .PHONY : hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/requires
 
 hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/clean:
-	cd /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff_plugins && $(CMAKE_COMMAND) -P CMakeFiles/hector_geotiff_plugins.dir/cmake_clean.cmake
+	cd /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff_plugins && $(CMAKE_COMMAND) -P CMakeFiles/hector_geotiff_plugins.dir/cmake_clean.cmake
 .PHONY : hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/clean
 
 hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/depend:
-	cd /home/tianbot/github/ros/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/ros/lidar_learning/src /home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_geotiff_plugins /home/tianbot/github/ros/lidar_learning/build /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff_plugins /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tianbot/github/CV/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/CV/lidar_learning/src /home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_geotiff_plugins /home/tianbot/github/CV/lidar_learning/build /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff_plugins /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/depend
 

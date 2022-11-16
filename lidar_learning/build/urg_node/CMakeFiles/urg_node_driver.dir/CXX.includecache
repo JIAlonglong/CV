@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tianbot/github/ros/lidar_learning/devel/include/urg_node/Status.h
+/home/tianbot/github/CV/lidar_learning/devel/include/urg_node/Status.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/tianbot/github/ros/lidar_learning/devel/include/urg_node/URGConfig.h
+/home/tianbot/github/CV/lidar_learning/devel/include/urg_node/URGConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -40,7 +40,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/tianbot/github/ros/lidar_learning/src/urg_node/include/urg_node/urg_c_wrapper.h
+/home/tianbot/github/CV/lidar_learning/src/urg_node/include/urg_node/urg_c_wrapper.h
 stdexcept
 -
 sstream
@@ -58,7 +58,7 @@ urg_c/urg_sensor.h
 urg_c/urg_utils.h
 -
 
-/home/tianbot/github/ros/lidar_learning/src/urg_node/include/urg_node/urg_node_driver.h
+/home/tianbot/github/CV/lidar_learning/src/urg_node/include/urg_node/urg_node_driver.h
 string
 -
 ros/ros.h
@@ -78,11 +78,11 @@ std_srvs/Trigger.h
 bondcpp/bond.h
 -
 urg_node/urg_c_wrapper.h
-/home/tianbot/github/ros/lidar_learning/src/urg_node/include/urg_node/urg_node/urg_c_wrapper.h
+/home/tianbot/github/CV/lidar_learning/src/urg_node/include/urg_node/urg_node/urg_c_wrapper.h
 
-/home/tianbot/github/ros/lidar_learning/src/urg_node/src/urg_node_driver.cpp
+/home/tianbot/github/CV/lidar_learning/src/urg_node/src/urg_node_driver.cpp
 urg_node/urg_node_driver.h
-/home/tianbot/github/ros/lidar_learning/src/urg_node/src/urg_node/urg_node_driver.h
+/home/tianbot/github/CV/lidar_learning/src/urg_node/src/urg_node/urg_node_driver.h
 tf/tf.h
 -
 string

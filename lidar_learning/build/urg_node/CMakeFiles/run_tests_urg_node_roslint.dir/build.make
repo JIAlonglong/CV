@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tianbot/github/ros/lidar_learning/src
+CMAKE_SOURCE_DIR = /home/tianbot/github/CV/lidar_learning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tianbot/github/ros/lidar_learning/build
+CMAKE_BINARY_DIR = /home/tianbot/github/CV/lidar_learning/build
 
 # Utility rule file for run_tests_urg_node_roslint.
 
@@ -63,10 +63,10 @@ urg_node/CMakeFiles/run_tests_urg_node_roslint.dir/build: run_tests_urg_node_ros
 .PHONY : urg_node/CMakeFiles/run_tests_urg_node_roslint.dir/build
 
 urg_node/CMakeFiles/run_tests_urg_node_roslint.dir/clean:
-	cd /home/tianbot/github/ros/lidar_learning/build/urg_node && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_urg_node_roslint.dir/cmake_clean.cmake
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_urg_node_roslint.dir/cmake_clean.cmake
 .PHONY : urg_node/CMakeFiles/run_tests_urg_node_roslint.dir/clean
 
 urg_node/CMakeFiles/run_tests_urg_node_roslint.dir/depend:
-	cd /home/tianbot/github/ros/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/ros/lidar_learning/src /home/tianbot/github/ros/lidar_learning/src/urg_node /home/tianbot/github/ros/lidar_learning/build /home/tianbot/github/ros/lidar_learning/build/urg_node /home/tianbot/github/ros/lidar_learning/build/urg_node/CMakeFiles/run_tests_urg_node_roslint.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tianbot/github/CV/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/CV/lidar_learning/src /home/tianbot/github/CV/lidar_learning/src/urg_node /home/tianbot/github/CV/lidar_learning/build /home/tianbot/github/CV/lidar_learning/build/urg_node /home/tianbot/github/CV/lidar_learning/build/urg_node/CMakeFiles/run_tests_urg_node_roslint.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : urg_node/CMakeFiles/run_tests_urg_node_roslint.dir/depend
 

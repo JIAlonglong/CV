@@ -67,14 +67,14 @@ set(xiangquancars_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(xiangquancars_SOURCE_PREFIX /home/tianbot/github/ros/lidar_learning/src/xiangquancars)
-  set(xiangquancars_DEVEL_PREFIX /home/tianbot/github/ros/lidar_learning/devel)
+  set(xiangquancars_SOURCE_PREFIX /home/tianbot/github/CV/lidar_learning/src/xiangquancars)
+  set(xiangquancars_DEVEL_PREFIX /home/tianbot/github/CV/lidar_learning/devel)
   set(xiangquancars_INSTALL_PREFIX "")
   set(xiangquancars_PREFIX ${xiangquancars_DEVEL_PREFIX})
 else()
   set(xiangquancars_SOURCE_PREFIX "")
   set(xiangquancars_DEVEL_PREFIX "")
-  set(xiangquancars_INSTALL_PREFIX /home/tianbot/github/ros/lidar_learning/install)
+  set(xiangquancars_INSTALL_PREFIX /home/tianbot/github/CV/lidar_learning/install)
   set(xiangquancars_PREFIX ${xiangquancars_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tianbot/github/ros/lidar_learning/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/tianbot/github/CV/lidar_learning/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

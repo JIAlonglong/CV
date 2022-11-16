@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_mapping_generate_messages_py"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/python2.7/dist-packages/hector_mapping/msg/_HectorDebugInfo.py"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/python2.7/dist-packages/hector_mapping/msg/_HectorIterData.py"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/python2.7/dist-packages/hector_mapping/srv/_ResetMapping.py"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/python2.7/dist-packages/hector_mapping/msg/__init__.py"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/python2.7/dist-packages/hector_mapping/srv/__init__.py"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/python2.7/dist-packages/hector_mapping/msg/_HectorIterData.py"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/python2.7/dist-packages/hector_mapping/msg/_HectorDebugInfo.py"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/python2.7/dist-packages/hector_mapping/srv/_ResetMapping.py"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/python2.7/dist-packages/hector_mapping/msg/__init__.py"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/python2.7/dist-packages/hector_mapping/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

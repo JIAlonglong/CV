@@ -1,4 +1,4 @@
-prefix=/home/tianbot/github/ros/lidar_learning/devel
+prefix=/home/tianbot/github/CV/lidar_learning/devel
 
 Name: hector_map_server
 Description: Description of hector_map_server

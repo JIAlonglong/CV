@@ -1,8 +1,8 @@
-# Install script for directory: /home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_nav_msgs
+# Install script for directory: /home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_nav_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tianbot/github/ros/lidar_learning/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tianbot/github/CV/lidar_learning/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,58 +39,58 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_nav_msgs/srv" TYPE FILE FILES
-    "/home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv"
-    "/home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv"
-    "/home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv"
-    "/home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv"
-    "/home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
+    "/home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv"
+    "/home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv"
+    "/home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv"
+    "/home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv"
+    "/home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_nav_msgs/cmake" TYPE FILE FILES "/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_nav_msgs/catkin_generated/installspace/hector_nav_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_nav_msgs/cmake" TYPE FILE FILES "/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_nav_msgs/catkin_generated/installspace/hector_nav_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/tianbot/github/ros/lidar_learning/devel/include/hector_nav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/tianbot/github/CV/lidar_learning/devel/include/hector_nav_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/tianbot/github/ros/lidar_learning/devel/share/roseus/ros/hector_nav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/tianbot/github/CV/lidar_learning/devel/share/roseus/ros/hector_nav_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/tianbot/github/ros/lidar_learning/devel/share/common-lisp/ros/hector_nav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/tianbot/github/CV/lidar_learning/devel/share/common-lisp/ros/hector_nav_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/tianbot/github/ros/lidar_learning/devel/share/gennodejs/ros/hector_nav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/tianbot/github/CV/lidar_learning/devel/share/gennodejs/ros/hector_nav_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/tianbot/github/ros/lidar_learning/devel/lib/python2.7/dist-packages/hector_nav_msgs")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/tianbot/github/CV/lidar_learning/devel/lib/python2.7/dist-packages/hector_nav_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/tianbot/github/ros/lidar_learning/devel/lib/python2.7/dist-packages/hector_nav_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/tianbot/github/CV/lidar_learning/devel/lib/python2.7/dist-packages/hector_nav_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_nav_msgs/catkin_generated/installspace/hector_nav_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_nav_msgs/catkin_generated/installspace/hector_nav_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_nav_msgs/cmake" TYPE FILE FILES "/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_nav_msgs/catkin_generated/installspace/hector_nav_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_nav_msgs/cmake" TYPE FILE FILES "/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_nav_msgs/catkin_generated/installspace/hector_nav_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_nav_msgs/cmake" TYPE FILE FILES
-    "/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_nav_msgs/catkin_generated/installspace/hector_nav_msgsConfig.cmake"
-    "/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_nav_msgs/catkin_generated/installspace/hector_nav_msgsConfig-version.cmake"
+    "/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_nav_msgs/catkin_generated/installspace/hector_nav_msgsConfig.cmake"
+    "/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_nav_msgs/catkin_generated/installspace/hector_nav_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_nav_msgs" TYPE FILE FILES "/home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_nav_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_nav_msgs" TYPE FILE FILES "/home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_nav_msgs/package.xml")
 endif()
 

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_mapping_generate_messages_nodejs"
-  "/home/tianbot/github/ros/lidar_learning/devel/share/gennodejs/ros/hector_mapping/msg/HectorDebugInfo.js"
-  "/home/tianbot/github/ros/lidar_learning/devel/share/gennodejs/ros/hector_mapping/msg/HectorIterData.js"
-  "/home/tianbot/github/ros/lidar_learning/devel/share/gennodejs/ros/hector_mapping/srv/ResetMapping.js"
+  "/home/tianbot/github/CV/lidar_learning/devel/share/gennodejs/ros/hector_mapping/msg/HectorIterData.js"
+  "/home/tianbot/github/CV/lidar_learning/devel/share/gennodejs/ros/hector_mapping/msg/HectorDebugInfo.js"
+  "/home/tianbot/github/CV/lidar_learning/devel/share/gennodejs/ros/hector_mapping/srv/ResetMapping.js"
 )
 
 # Per-language clean rules from dependency scanning.

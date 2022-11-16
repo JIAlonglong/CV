@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tianbot/github/ros/lidar_learning/src
+CMAKE_SOURCE_DIR = /home/tianbot/github/CV/lidar_learning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tianbot/github/ros/lidar_learning/build
+CMAKE_BINARY_DIR = /home/tianbot/github/CV/lidar_learning/build
 
 # Utility rule file for hector_nav_msgs_genpy.
 
@@ -63,10 +63,10 @@ hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genpy.dir/build: hector_n
 .PHONY : hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genpy.dir/build
 
 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genpy.dir/clean:
-	cd /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_nav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/hector_nav_msgs_genpy.dir/cmake_clean.cmake
+	cd /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_nav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/hector_nav_msgs_genpy.dir/cmake_clean.cmake
 .PHONY : hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genpy.dir/clean
 
 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genpy.dir/depend:
-	cd /home/tianbot/github/ros/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/ros/lidar_learning/src /home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_nav_msgs /home/tianbot/github/ros/lidar_learning/build /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_nav_msgs /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tianbot/github/CV/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/CV/lidar_learning/src /home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_nav_msgs /home/tianbot/github/CV/lidar_learning/build /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_nav_msgs /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_genpy.dir/depend
 

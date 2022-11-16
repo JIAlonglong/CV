@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/hector_trajectory_server/hector_trajectory_server.pdb"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/hector_trajectory_server/hector_trajectory_server"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/hector_trajectory_server/hector_trajectory_server.pdb"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/hector_trajectory_server/hector_trajectory_server"
 )
 
 # Per-language clean rules from dependency scanning.

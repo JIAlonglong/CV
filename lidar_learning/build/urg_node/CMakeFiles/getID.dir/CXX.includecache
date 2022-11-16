@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tianbot/github/ros/lidar_learning/src/urg_node/include/urg_node/urg_c_wrapper.h
+/home/tianbot/github/CV/lidar_learning/src/urg_node/include/urg_node/urg_c_wrapper.h
 stdexcept
 -
 sstream
@@ -24,7 +24,7 @@ urg_c/urg_sensor.h
 urg_c/urg_utils.h
 -
 
-/home/tianbot/github/ros/lidar_learning/src/urg_node/src/getID.cpp
+/home/tianbot/github/CV/lidar_learning/src/urg_node/src/getID.cpp
 urg_node/urg_c_wrapper.h
 -
 vector

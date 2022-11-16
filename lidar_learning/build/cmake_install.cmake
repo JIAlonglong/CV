@@ -1,8 +1,8 @@
-# Install script for directory: /home/tianbot/github/ros/lidar_learning/src
+# Install script for directory: /home/tianbot/github/CV/lidar_learning/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tianbot/github/ros/lidar_learning/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tianbot/github/CV/lidar_learning/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,105 +49,105 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tianbot/github/ros/lidar_learning/install/_setup_util.py")
+   "/home/tianbot/github/CV/lidar_learning/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tianbot/github/ros/lidar_learning/install" TYPE PROGRAM FILES "/home/tianbot/github/ros/lidar_learning/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/tianbot/github/CV/lidar_learning/install" TYPE PROGRAM FILES "/home/tianbot/github/CV/lidar_learning/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tianbot/github/ros/lidar_learning/install/env.sh")
+   "/home/tianbot/github/CV/lidar_learning/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tianbot/github/ros/lidar_learning/install" TYPE PROGRAM FILES "/home/tianbot/github/ros/lidar_learning/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/tianbot/github/CV/lidar_learning/install" TYPE PROGRAM FILES "/home/tianbot/github/CV/lidar_learning/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tianbot/github/ros/lidar_learning/install/setup.bash;/home/tianbot/github/ros/lidar_learning/install/local_setup.bash")
+   "/home/tianbot/github/CV/lidar_learning/install/setup.bash;/home/tianbot/github/CV/lidar_learning/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tianbot/github/ros/lidar_learning/install" TYPE FILE FILES
-    "/home/tianbot/github/ros/lidar_learning/build/catkin_generated/installspace/setup.bash"
-    "/home/tianbot/github/ros/lidar_learning/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/tianbot/github/CV/lidar_learning/install" TYPE FILE FILES
+    "/home/tianbot/github/CV/lidar_learning/build/catkin_generated/installspace/setup.bash"
+    "/home/tianbot/github/CV/lidar_learning/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tianbot/github/ros/lidar_learning/install/setup.sh;/home/tianbot/github/ros/lidar_learning/install/local_setup.sh")
+   "/home/tianbot/github/CV/lidar_learning/install/setup.sh;/home/tianbot/github/CV/lidar_learning/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tianbot/github/ros/lidar_learning/install" TYPE FILE FILES
-    "/home/tianbot/github/ros/lidar_learning/build/catkin_generated/installspace/setup.sh"
-    "/home/tianbot/github/ros/lidar_learning/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/tianbot/github/CV/lidar_learning/install" TYPE FILE FILES
+    "/home/tianbot/github/CV/lidar_learning/build/catkin_generated/installspace/setup.sh"
+    "/home/tianbot/github/CV/lidar_learning/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tianbot/github/ros/lidar_learning/install/setup.zsh;/home/tianbot/github/ros/lidar_learning/install/local_setup.zsh")
+   "/home/tianbot/github/CV/lidar_learning/install/setup.zsh;/home/tianbot/github/CV/lidar_learning/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tianbot/github/ros/lidar_learning/install" TYPE FILE FILES
-    "/home/tianbot/github/ros/lidar_learning/build/catkin_generated/installspace/setup.zsh"
-    "/home/tianbot/github/ros/lidar_learning/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/tianbot/github/CV/lidar_learning/install" TYPE FILE FILES
+    "/home/tianbot/github/CV/lidar_learning/build/catkin_generated/installspace/setup.zsh"
+    "/home/tianbot/github/CV/lidar_learning/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/tianbot/github/ros/lidar_learning/install/.rosinstall")
+   "/home/tianbot/github/CV/lidar_learning/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/tianbot/github/ros/lidar_learning/install" TYPE FILE FILES "/home/tianbot/github/ros/lidar_learning/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/tianbot/github/CV/lidar_learning/install" TYPE FILE FILES "/home/tianbot/github/CV/lidar_learning/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tianbot/github/ros/lidar_learning/build/gtest/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff_launch/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_slam/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_slam_launch/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_map_tools/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_nav_msgs/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff_plugins/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_marker_drawing/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/location/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_compressed_map_transport/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_imu_attitude_to_tf/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_imu_tools/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_map_server/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_trajectory_server/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_mapping/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/urg_node/cmake_install.cmake")
-  include("/home/tianbot/github/ros/lidar_learning/build/xiangquancars/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/gtest/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff_launch/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_slam/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_slam_launch/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_map_tools/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_nav_msgs/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff_plugins/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_marker_drawing/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/location/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_compressed_map_transport/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_imu_attitude_to_tf/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_imu_tools/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_map_server/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_trajectory_server/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_mapping/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/urg_node/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/xiangquancars/cmake_install.cmake")
 
 endif()
 
@@ -159,5 +159,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tianbot/github/ros/lidar_learning/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tianbot/github/CV/lidar_learning/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tianbot/github/ros/lidar_learning/src/urg_node/src/urg_c_wrapper.cpp" "/home/tianbot/github/ros/lidar_learning/build/urg_node/CMakeFiles/urg_c_wrapper.dir/src/urg_c_wrapper.cpp.o"
+  "/home/tianbot/github/CV/lidar_learning/src/urg_node/src/urg_c_wrapper.cpp" "/home/tianbot/github/CV/lidar_learning/build/urg_node/CMakeFiles/urg_c_wrapper.dir/src/urg_c_wrapper.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/tianbot/github/ros/lidar_learning/devel/include"
-  "/home/tianbot/github/ros/lidar_learning/src/urg_node/include"
+  "/home/tianbot/github/CV/lidar_learning/devel/include"
+  "/home/tianbot/github/CV/lidar_learning/src/urg_node/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

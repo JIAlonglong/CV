@@ -1,8 +1,8 @@
-# Install script for directory: /home/tianbot/github/ros/lidar_learning/src/location
+# Install script for directory: /home/tianbot/github/CV/lidar_learning/src/location
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tianbot/github/ros/lidar_learning/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tianbot/github/CV/lidar_learning/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tianbot/github/ros/lidar_learning/build/location/catkin_generated/installspace/location.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tianbot/github/CV/lidar_learning/build/location/catkin_generated/installspace/location.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/location/cmake" TYPE FILE FILES
-    "/home/tianbot/github/ros/lidar_learning/build/location/catkin_generated/installspace/locationConfig.cmake"
-    "/home/tianbot/github/ros/lidar_learning/build/location/catkin_generated/installspace/locationConfig-version.cmake"
+    "/home/tianbot/github/CV/lidar_learning/build/location/catkin_generated/installspace/locationConfig.cmake"
+    "/home/tianbot/github/CV/lidar_learning/build/location/catkin_generated/installspace/locationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/location" TYPE FILE FILES "/home/tianbot/github/ros/lidar_learning/src/location/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/location" TYPE FILE FILES "/home/tianbot/github/CV/lidar_learning/src/location/package.xml")
 endif()
 

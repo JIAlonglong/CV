@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"hector_mapping\"
 
-CXX_INCLUDES = -I/home/tianbot/github/ros/lidar_learning/devel/include -I/home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_mapping/include/hector_slam_lib -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/tianbot/github/CV/lidar_learning/devel/include -I/home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_mapping/include/hector_slam_lib -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/urg_node_generate_messages_cpp"
-  "/home/tianbot/github/ros/lidar_learning/devel/include/urg_node/Status.h"
+  "/home/tianbot/github/CV/lidar_learning/devel/include/urg_node/Status.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/urg_node.dir/src/urg_node.cpp.o"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/urg_node/urg_node.pdb"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/urg_node/urg_node"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/urg_node/urg_node.pdb"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/urg_node/urg_node"
 )
 
 # Per-language clean rules from dependency scanning.

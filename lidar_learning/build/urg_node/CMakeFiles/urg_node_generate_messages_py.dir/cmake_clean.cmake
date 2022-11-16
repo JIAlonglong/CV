@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/urg_node_generate_messages_py"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/python2.7/dist-packages/urg_node/msg/_Status.py"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/python2.7/dist-packages/urg_node/msg/__init__.py"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/python2.7/dist-packages/urg_node/msg/_Status.py"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/python2.7/dist-packages/urg_node/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

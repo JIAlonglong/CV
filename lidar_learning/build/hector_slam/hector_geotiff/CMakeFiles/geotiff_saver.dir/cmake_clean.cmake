@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geotiff_saver.dir/src/geotiff_saver.cpp.o"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/hector_geotiff/geotiff_saver.pdb"
-  "/home/tianbot/github/ros/lidar_learning/devel/lib/hector_geotiff/geotiff_saver"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/hector_geotiff/geotiff_saver.pdb"
+  "/home/tianbot/github/CV/lidar_learning/devel/lib/hector_geotiff/geotiff_saver"
 )
 
 # Per-language clean rules from dependency scanning.

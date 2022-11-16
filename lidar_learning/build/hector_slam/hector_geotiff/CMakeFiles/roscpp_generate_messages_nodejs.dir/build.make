@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tianbot/github/ros/lidar_learning/src
+CMAKE_SOURCE_DIR = /home/tianbot/github/CV/lidar_learning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tianbot/github/ros/lidar_learning/build
+CMAKE_BINARY_DIR = /home/tianbot/github/CV/lidar_learning/build
 
 # Utility rule file for roscpp_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ hector_slam/hector_geotiff/CMakeFiles/roscpp_generate_messages_nodejs.dir/build:
 .PHONY : hector_slam/hector_geotiff/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 
 hector_slam/hector_geotiff/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
-	cd /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : hector_slam/hector_geotiff/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 
 hector_slam/hector_geotiff/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend:
-	cd /home/tianbot/github/ros/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/ros/lidar_learning/src /home/tianbot/github/ros/lidar_learning/src/hector_slam/hector_geotiff /home/tianbot/github/ros/lidar_learning/build /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff /home/tianbot/github/ros/lidar_learning/build/hector_slam/hector_geotiff/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tianbot/github/CV/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/CV/lidar_learning/src /home/tianbot/github/CV/lidar_learning/src/hector_slam/hector_geotiff /home/tianbot/github/CV/lidar_learning/build /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff /home/tianbot/github/CV/lidar_learning/build/hector_slam/hector_geotiff/CMakeFiles/roscpp_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hector_slam/hector_geotiff/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 

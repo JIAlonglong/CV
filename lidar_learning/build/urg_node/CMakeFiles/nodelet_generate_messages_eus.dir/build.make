@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tianbot/github/ros/lidar_learning/src
+CMAKE_SOURCE_DIR = /home/tianbot/github/CV/lidar_learning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tianbot/github/ros/lidar_learning/build
+CMAKE_BINARY_DIR = /home/tianbot/github/CV/lidar_learning/build
 
 # Utility rule file for nodelet_generate_messages_eus.
 
@@ -63,10 +63,10 @@ urg_node/CMakeFiles/nodelet_generate_messages_eus.dir/build: nodelet_generate_me
 .PHONY : urg_node/CMakeFiles/nodelet_generate_messages_eus.dir/build
 
 urg_node/CMakeFiles/nodelet_generate_messages_eus.dir/clean:
-	cd /home/tianbot/github/ros/lidar_learning/build/urg_node && $(CMAKE_COMMAND) -P CMakeFiles/nodelet_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && $(CMAKE_COMMAND) -P CMakeFiles/nodelet_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : urg_node/CMakeFiles/nodelet_generate_messages_eus.dir/clean
 
 urg_node/CMakeFiles/nodelet_generate_messages_eus.dir/depend:
-	cd /home/tianbot/github/ros/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/ros/lidar_learning/src /home/tianbot/github/ros/lidar_learning/src/urg_node /home/tianbot/github/ros/lidar_learning/build /home/tianbot/github/ros/lidar_learning/build/urg_node /home/tianbot/github/ros/lidar_learning/build/urg_node/CMakeFiles/nodelet_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tianbot/github/CV/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/CV/lidar_learning/src /home/tianbot/github/CV/lidar_learning/src/urg_node /home/tianbot/github/CV/lidar_learning/build /home/tianbot/github/CV/lidar_learning/build/urg_node /home/tianbot/github/CV/lidar_learning/build/urg_node/CMakeFiles/nodelet_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : urg_node/CMakeFiles/nodelet_generate_messages_eus.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tianbot/github/ros/lidar_learning/src
+CMAKE_SOURCE_DIR = /home/tianbot/github/CV/lidar_learning/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tianbot/github/ros/lidar_learning/build
+CMAKE_BINARY_DIR = /home/tianbot/github/CV/lidar_learning/build
 
 # Utility rule file for run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/tianbot/github/ros/lidar_learning/build
 include urg_node/CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.dir/progress.make
 
 urg_node/CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch:
-	cd /home/tianbot/github/ros/lidar_learning/build/urg_node && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/tianbot/github/ros/lidar_learning/build/test_results/urg_node/roslaunch-check_launch_urg_lidar.launch.xml "/usr/bin/cmake -E make_directory /home/tianbot/github/ros/lidar_learning/build/test_results/urg_node" "/opt/ros/melodic/share/roslaunch/cmake/../scripts/roslaunch-check -o \"/home/tianbot/github/ros/lidar_learning/build/test_results/urg_node/roslaunch-check_launch_urg_lidar.launch.xml\" \"/home/tianbot/github/ros/lidar_learning/src/urg_node/launch/urg_lidar.launch\" "
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/tianbot/github/ros/lidar_learning/build/test_results/urg_node/roslaunch-check_launch_urg_lidar.launch.xml "/usr/bin/cmake -E make_directory /home/tianbot/github/ros/lidar_learning/build/test_results/urg_node" "/opt/ros/melodic/share/roslaunch/cmake/../scripts/roslaunch-check -o \"/home/tianbot/github/ros/lidar_learning/build/test_results/urg_node/roslaunch-check_launch_urg_lidar.launch.xml\" \"/home/tianbot/github/CV/lidar_learning/src/urg_node/launch/urg_lidar.launch\" "
 
 run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch: urg_node/CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch
 run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch: urg_node/CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.dir/build.make
@@ -67,10 +67,10 @@ urg_node/CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.d
 .PHONY : urg_node/CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.dir/build
 
 urg_node/CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.dir/clean:
-	cd /home/tianbot/github/ros/lidar_learning/build/urg_node && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.dir/cmake_clean.cmake
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.dir/cmake_clean.cmake
 .PHONY : urg_node/CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.dir/clean
 
 urg_node/CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.dir/depend:
-	cd /home/tianbot/github/ros/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/ros/lidar_learning/src /home/tianbot/github/ros/lidar_learning/src/urg_node /home/tianbot/github/ros/lidar_learning/build /home/tianbot/github/ros/lidar_learning/build/urg_node /home/tianbot/github/ros/lidar_learning/build/urg_node/CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tianbot/github/CV/lidar_learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tianbot/github/CV/lidar_learning/src /home/tianbot/github/CV/lidar_learning/src/urg_node /home/tianbot/github/CV/lidar_learning/build /home/tianbot/github/CV/lidar_learning/build/urg_node /home/tianbot/github/CV/lidar_learning/build/urg_node/CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : urg_node/CMakeFiles/run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch.dir/depend
 

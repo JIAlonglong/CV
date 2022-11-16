@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tianbot/github/ros/lidar_learning/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tianbot/github/CV/lidar_learning/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tianbot/github/ros/lidar_learning/build/gtest/googlemock/gtest/cmake_install.cmake")
+  include("/home/tianbot/github/CV/lidar_learning/build/gtest/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

@@ -1,0 +1,8 @@
+prefix=/home/tianbot/github/CV/lidar_learning/install
+
+Name: duolun
+Description: Description of duolun
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
