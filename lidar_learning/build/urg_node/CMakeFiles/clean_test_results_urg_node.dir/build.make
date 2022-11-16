@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/tianbot/github/CV/lidar_learning/build
 include urg_node/CMakeFiles/clean_test_results_urg_node.dir/progress.make
 
 urg_node/CMakeFiles/clean_test_results_urg_node:
-	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/tianbot/github/ros/lidar_learning/build/test_results/urg_node
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/tianbot/github/CV/lidar_learning/build/test_results/urg_node
 
 clean_test_results_urg_node: urg_node/CMakeFiles/clean_test_results_urg_node
 clean_test_results_urg_node: urg_node/CMakeFiles/clean_test_results_urg_node.dir/build.make

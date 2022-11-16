@@ -377,12 +377,6 @@ diagnostic_msgs_DIR:PATH=/opt/ros/melodic/share/diagnostic_msgs/cmake
 //The directory containing a CMake configuration file for diagnostic_updater.
 diagnostic_updater_DIR:PATH=/opt/ros/melodic/share/diagnostic_updater/cmake
 
-//Value Computed by CMake
-duolun_BINARY_DIR:STATIC=/home/tianbot/github/CV/lidar_learning/build/duolun
-
-//Value Computed by CMake
-duolun_SOURCE_DIR:STATIC=/home/tianbot/github/CV/lidar_learning/src/duolun
-
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/melodic/share/dynamic_reconfigure/cmake
 
@@ -594,18 +588,6 @@ nodelet_DIR:PATH=/opt/ros/melodic/share/nodelet/cmake
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
 
-//Value Computed by CMake
-quanxiangcar_BINARY_DIR:STATIC=/home/tianbot/github/ros/lidar_learning/build/quanxiangcar
-
-//Value Computed by CMake
-quanxiangcar_SOURCE_DIR:STATIC=/home/tianbot/github/ros/lidar_learning/src/quanxiangcar
-
-//Value Computed by CMake
-quanxianglun_BINARY_DIR:STATIC=/home/tianbot/github/ros/lidar_learning/build/quanxianglun
-
-//Value Computed by CMake
-quanxianglun_SOURCE_DIR:STATIC=/home/tianbot/github/ros/lidar_learning/src/quanxianglun
-
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
 
@@ -731,7 +713,7 @@ Boost_THREAD_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 Boost_THREAD_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/tianbot/github/CV/lidar_learning/build/catkin_generated/env_cached.sh
-CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/tianbot/github/ros/lidar_learning/build/test_results
+CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/tianbot/github/CV/lidar_learning/build/test_results
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -814,7 +796,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/tianbot/github/ros/lidar_learning/src
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/tianbot/github/CV/lidar_learning/src
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -834,7 +816,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

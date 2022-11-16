@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/tianbot/github/CV/lidar_learning/build
 include urg_node/CMakeFiles/_run_tests_urg_node_roslint_package.dir/progress.make
 
 urg_node/CMakeFiles/_run_tests_urg_node_roslint_package:
-	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/tianbot/github/ros/lidar_learning/build/test_results/urg_node/roslint-urg_node.xml --working-dir /home/tianbot/github/CV/lidar_learning/build/urg_node "/opt/ros/melodic/share/roslint/cmake/../../../lib/roslint/test_wrapper /home/tianbot/github/ros/lidar_learning/build/test_results/urg_node/roslint-urg_node.xml make roslint_urg_node"
+	cd /home/tianbot/github/CV/lidar_learning/build/urg_node && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/tianbot/github/CV/lidar_learning/build/test_results/urg_node/roslint-urg_node.xml --working-dir /home/tianbot/github/CV/lidar_learning/build/urg_node "/opt/ros/melodic/share/roslint/cmake/../../../lib/roslint/test_wrapper /home/tianbot/github/CV/lidar_learning/build/test_results/urg_node/roslint-urg_node.xml make roslint_urg_node"
 
 _run_tests_urg_node_roslint_package: urg_node/CMakeFiles/_run_tests_urg_node_roslint_package
 _run_tests_urg_node_roslint_package: urg_node/CMakeFiles/_run_tests_urg_node_roslint_package.dir/build.make

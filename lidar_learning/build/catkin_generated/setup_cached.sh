@@ -13,4 +13,4 @@ export LD_LIBRARY_PATH="/home/tianbot/github/CV/lidar_learning/devel/lib:$LD_LIB
 export PKG_CONFIG_PATH="/home/tianbot/github/CV/lidar_learning/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/tianbot/github/CV/lidar_learning/build'
 export PYTHONPATH="/home/tianbot/github/CV/lidar_learning/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROS_PACKAGE_PATH="/home/tianbot/github/ros/lidar_learning/src:/home/tianbot/github/CV/lidar_learning/src:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/home/tianbot/github/CV/lidar_learning/src:$ROS_PACKAGE_PATH"
