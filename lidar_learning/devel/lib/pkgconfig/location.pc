@@ -1,8 +1,0 @@
-prefix=/home/tianbot/github/ros/lidar_learning/devel
-
-Name: location
-Description: Description of location
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

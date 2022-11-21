@@ -1,55 +1,58 @@
-Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/tianbot/github/ros/lidar_learning/build/CMakeFiles/CMakeTmp
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/jialong03/github/CV/lidar_learning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_66f79/fast"
-/usr/bin/make -f CMakeFiles/cmTC_66f79.dir/build.make CMakeFiles/cmTC_66f79.dir/build
-make[1]: Entering directory '/home/tianbot/github/ros/lidar_learning/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_66f79.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_66f79.dir/CheckSymbolExists.c.o   -c /home/tianbot/github/ros/lidar_learning/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_66f79
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66f79.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_66f79.dir/CheckSymbolExists.c.o  -o cmTC_66f79 
-CMakeFiles/cmTC_66f79.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+Run Build Command(s):/usr/bin/make cmTC_784a6/fast && /usr/bin/make -f CMakeFiles/cmTC_784a6.dir/build.make CMakeFiles/cmTC_784a6.dir/build
+make[1]: 进入目录“/home/jialong03/github/CV/lidar_learning/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_784a6.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_784a6.dir/src.c.o   -c /home/jialong03/github/CV/lidar_learning/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_784a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_784a6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_784a6.dir/src.c.o  -o cmTC_784a6 
+/usr/bin/ld: CMakeFiles/cmTC_784a6.dir/src.c.o: in function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x4a): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x5b): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_66f79.dir/build.make:97: recipe for target 'cmTC_66f79' failed
-make[1]: *** [cmTC_66f79] Error 1
-make[1]: Leaving directory '/home/tianbot/github/ros/lidar_learning/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_66f79/fast' failed
-make: *** [cmTC_66f79/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_784a6.dir/build.make:87：cmTC_784a6] 错误 1
+make[1]: 离开目录“/home/jialong03/github/CV/lidar_learning/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_784a6/fast] 错误 2
 
-File /home/tianbot/github/ros/lidar_learning/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
+
+Source file was:
 #include <pthread.h>
 
-int main(int argc, char** argv)
+void* test_func(void* data)
 {
-  (void)argv;
-#ifndef pthread_create
-  return ((int*)(&pthread_create))[argc];
-#else
-  (void)argc;
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
   return 0;
-#endif
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/tianbot/github/ros/lidar_learning/build/CMakeFiles/CMakeTmp
+Change Dir: /home/jialong03/github/CV/lidar_learning/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d4fef/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d4fef.dir/build.make CMakeFiles/cmTC_d4fef.dir/build
-make[1]: Entering directory '/home/tianbot/github/ros/lidar_learning/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d4fef.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d4fef.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d4fef
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4fef.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d4fef.dir/CheckFunctionExists.c.o  -o cmTC_d4fef -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
+Run Build Command(s):/usr/bin/make cmTC_d5a0c/fast && /usr/bin/make -f CMakeFiles/cmTC_d5a0c.dir/build.make CMakeFiles/cmTC_d5a0c.dir/build
+make[1]: 进入目录“/home/jialong03/github/CV/lidar_learning/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d5a0c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d5a0c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d5a0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5a0c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d5a0c.dir/CheckFunctionExists.c.o  -o cmTC_d5a0c  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_d4fef.dir/build.make:97: recipe for target 'cmTC_d4fef' failed
-make[1]: *** [cmTC_d4fef] Error 1
-make[1]: Leaving directory '/home/tianbot/github/ros/lidar_learning/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d4fef/fast' failed
-make: *** [cmTC_d4fef/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_d5a0c.dir/build.make:87：cmTC_d5a0c] 错误 1
+make[1]: 离开目录“/home/jialong03/github/CV/lidar_learning/build/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_d5a0c/fast] 错误 2
+
 
 

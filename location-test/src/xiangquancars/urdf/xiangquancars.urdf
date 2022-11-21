@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="xiangquancars">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.135012009163579 -0.01 -0.34251867420735"
+        rpy="0 0 0" />
+      <mass
+        value="2.15731792123271" />
+      <inertia
+        ixx="0.077714394818515"
+        ixy="-3.24754536479821E-19"
+        ixz="3.41867749109593E-06"
+        iyy="0.151582220798309"
+        iyz="-5.37521404282621E-18"
+        izz="0.0740116471745425" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xiangquancars/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xiangquancars/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="A_wheel">
+    <inertial>
+      <origin
+        xyz="-0.0633154932852962 -0.0286354919950985 0.00966380806253122"
+        rpy="0 0 0" />
+      <mass
+        value="0.552862123998363" />
+      <inertia
+        ixx="0.000386629247402716"
+        ixy="-0.000103264981827922"
+        ixz="1.03469120540752E-06"
+        iyy="0.000420834137350362"
+        iyz="1.19990651368242E-06"
+        izz="0.000295306068033301" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xiangquancars/meshes/A_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xiangquancars/meshes/A_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="A_wheel"
+    type="fixed">
+    <origin
+      xyz="0.0752254372121732 -0.0144894461303554 0.0415000000000001"
+      rpy="-1.5707963267949 -0.706621920095397 2.80499344070519" />
+    <parent
+      link="base_link" />
+    <child
+      link="A_wheel" />
+    <axis
+      xyz="-0.649268249707963 0.760559491375368 0" />
+  </joint>
+  <link
+    name="B_wheel">
+    <inertial>
+      <origin
+        xyz="-0.0643008339790522 -0.0275639301432439 0.00977194749589866"
+        rpy="0 0 0" />
+      <mass
+        value="0.587356590698773" />
+      <inertia
+        ixx="0.000391237308741192"
+        ixy="-0.000107303593018306"
+        ixz="6.46903269603801E-07"
+        iyy="0.000425819438449392"
+        iyz="1.45709546281757E-06"
+        izz="0.000303633656277911" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xiangquancars/meshes/B_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xiangquancars/meshes/B_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="B_wheel"
+    type="fixed">
+    <origin
+      xyz="0.464756497888794 0.0203801440269274 -0.507774205882736"
+      rpy="0.605610009666 0.1072970097415 0.806734396814752" />
+    <parent
+      link="base_link" />
+    <child
+      link="B_wheel" />
+    <axis
+      xyz="-0.687881235804038 0.551443986385019 -0.471941665154189" />
+  </joint>
+  <link
+    name="C_wheel">
+    <inertial>
+      <origin
+        xyz="-0.0586976224812866 -0.0334898811864578 0.0110216647816704"
+        rpy="0 0 0" />
+      <mass
+        value="0.444837167197507" />
+      <inertia
+        ixx="0.000374245789326278"
+        ixy="-0.000101510368884489"
+        ixz="3.49790854466878E-08"
+        iyy="0.000407966742314441"
+        iyz="-7.74730768956127E-08"
+        izz="0.000287928501177608" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xiangquancars/meshes/C_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xiangquancars/meshes/C_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="C_wheel"
+    type="fixed">
+    <origin
+      xyz="-0.154676585707583 -0.043545182759587 -0.577194650143489"
+      rpy="-1.07310007522592 1.36626569929321 -2.70895848810084" />
+    <parent
+      link="base_link" />
+    <child
+      link="C_wheel" />
+    <axis
+      xyz="-0.184394171652797 0.98125673423585 -0.0559822380516659" />
+  </joint>
+  <link
+    name="Support">
+    <inertial>
+      <origin
+        xyz="5.7726124569335E-07 0.0392997247589532 -1.52576973624918E-09"
+        rpy="0 0 0" />
+      <mass
+        value="0.123004518180591" />
+      <inertia
+        ixx="0.00104988830297272"
+        ixy="-3.99955935815525E-11"
+        ixz="5.05800497107023E-11"
+        iyy="0.000101867997168318"
+        iyz="7.63651478513199E-11"
+        izz="0.00113902100760953" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xiangquancars/meshes/Support.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xiangquancars/meshes/Support.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Support"
+    type="fixed">
+    <origin
+      xyz="0.135000108839613 -0.2 -0.03"
+      rpy="3.14159265358979 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Support" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="lidar">
+    <inertial>
+      <origin
+        xyz="0.00923939493543101 0.0351277713819781 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.37887160632757" />
+      <inertia
+        ixx="0.000273312955975969"
+        ixy="1.97215128083265E-06"
+        ixz="3.62523695054526E-20"
+        iyy="0.000389688247729574"
+        iyz="-1.31116783985718E-20"
+        izz="0.000389715458100048" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xiangquancars/meshes/lidar.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.462745098039216 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xiangquancars/meshes/lidar.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lidar"
+    type="fixed">
+    <origin
+      xyz="0.135000108839613 -0.46 0.01"
+      rpy="0 1.5707963267949 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidar" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
