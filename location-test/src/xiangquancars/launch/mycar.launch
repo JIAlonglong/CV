@@ -1,5 +1,0 @@
-<launch>
-    <param name="robot_description" value="$(find xacro)/xacro $(find xiangquancars)/urdf/xacro/laser.urdf.xacro"/>
-    <param name="robot_description" value="$(find urdf)/urdf $(find xiangquancars)/urdf/xiangquancars.urdf"/>
-     <node pkg="gazebo_ros" type="spawn_model" name="model" args="-urdf -model mycar -param robot_description"  />
-</launch>

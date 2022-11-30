@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/jialong03/github/CV/location-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_67706/fast && /usr/bin/make -f CMakeFiles/cmTC_67706.dir/build.make CMakeFiles/cmTC_67706.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c446d/fast && /usr/bin/make -f CMakeFiles/cmTC_c446d.dir/build.make CMakeFiles/cmTC_c446d.dir/build
 make[1]: 进入目录“/home/jialong03/github/CV/location-test/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_67706.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_67706.dir/src.c.o   -c /home/jialong03/github/CV/location-test/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_67706
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67706.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_67706.dir/src.c.o  -o cmTC_67706 
-/usr/bin/ld: CMakeFiles/cmTC_67706.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_c446d.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c446d.dir/src.c.o   -c /home/jialong03/github/CV/location-test/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c446d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c446d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_c446d.dir/src.c.o  -o cmTC_c446d 
+/usr/bin/ld: CMakeFiles/cmTC_c446d.dir/src.c.o: in function `main':
 src.c:(.text+0x3e): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x4a): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x5b): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_67706.dir/build.make:87：cmTC_67706] 错误 1
+make[1]: *** [CMakeFiles/cmTC_c446d.dir/build.make:87：cmTC_c446d] 错误 1
 make[1]: 离开目录“/home/jialong03/github/CV/location-test/build/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_67706/fast] 错误 2
+make: *** [Makefile:121：cmTC_c446d/fast] 错误 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/jialong03/github/CV/location-test/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_cf4f6/fast && /usr/bin/make -f CMakeFiles/cmTC_cf4f6.dir/build.make CMakeFiles/cmTC_cf4f6.dir/build
+Run Build Command(s):/usr/bin/make cmTC_29f65/fast && /usr/bin/make -f CMakeFiles/cmTC_29f65.dir/build.make CMakeFiles/cmTC_29f65.dir/build
 make[1]: 进入目录“/home/jialong03/github/CV/location-test/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_cf4f6.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cf4f6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_cf4f6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf4f6.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cf4f6.dir/CheckFunctionExists.c.o  -o cmTC_cf4f6  -lpthreads 
+Building C object CMakeFiles/cmTC_29f65.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_29f65.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_29f65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29f65.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_29f65.dir/CheckFunctionExists.c.o  -o cmTC_29f65  -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_cf4f6.dir/build.make:87：cmTC_cf4f6] 错误 1
+make[1]: *** [CMakeFiles/cmTC_29f65.dir/build.make:87：cmTC_29f65] 错误 1
 make[1]: 离开目录“/home/jialong03/github/CV/location-test/build/CMakeFiles/CMakeTmp”
-make: *** [Makefile:121：cmTC_cf4f6/fast] 错误 2
+make: *** [Makefile:121：cmTC_29f65/fast] 错误 2
 
 
 

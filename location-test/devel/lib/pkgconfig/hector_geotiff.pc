@@ -1,0 +1,8 @@
+prefix=/home/jialong03/github/CV/location-test/devel
+
+Name: hector_geotiff
+Description: Description of hector_geotiff
+Version: 0.5.2
+Cflags: -I/home/jialong03/github/CV/location-test/src/hector_slam/hector_geotiff/include -I/usr/include/eigen3 -I/home/jialong03/anaconda3/include/qt/ -I/home/jialong03/anaconda3/include/qt/QtWidgets -I/home/jialong03/anaconda3/include/qt/QtGui -I/home/jialong03/anaconda3/include/qt/QtCore -I/home/jialong03/anaconda3/.//mkspecs/linux-g++
+Libs: -L${prefix}/lib -lgeotiff_writer /home/jialong03/anaconda3/lib/libQt5Widgets.so.5.9.7
+Requires: hector_map_tools hector_nav_msgs nav_msgs pluginlib roscpp std_msgs
