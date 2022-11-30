@@ -7,11 +7,11 @@
 
 namespace robot_localization {
 
-  class Odometry {
+  class RabbitOdometry {
     public:
-      Odometry(ros::NodeHandle node_handle, double frequency, double error_vx_systematic, double error_vx_random,
+      RabbitOdometry(ros::NodeHandle node_handle, double frequency, double error_vx_systematic, double error_vx_random,
           double error_wz_systematic, double error_wz_random, bool visualize=false);
-      ~Odometry();
+      ~RabbitOdometry();
       void spin();
     private:
       ros::NodeHandle node_handle_;
