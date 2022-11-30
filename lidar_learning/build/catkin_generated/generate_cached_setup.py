@@ -19,9 +19,15 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
+<<<<<<< HEAD
 code = generate_environment_script('/home/jialong03/github/CV/lidar_learning/devel/env.sh')
 
 output_filename = '/home/jialong03/github/CV/lidar_learning/build/catkin_generated/setup_cached.sh'
+=======
+code = generate_environment_script('/home/tianbot/github/CV/lidar_learning/devel/env.sh')
+
+output_filename = '/home/tianbot/github/CV/lidar_learning/build/catkin_generated/setup_cached.sh'
+>>>>>>> c626aaf3d3ba3c2048f74ae97be2de15e90c2d73
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

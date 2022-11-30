@@ -1,0 +1,8 @@
+prefix=/home/tianbot/github/CV/lidar_learning/devel
+
+Name: xiangquancars
+Description: Description of xiangquancars
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

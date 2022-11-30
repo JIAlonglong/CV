@@ -1,2 +1,6 @@
 - setup-file:
+<<<<<<< HEAD
     local-name: /home/jialong03/github/CV/lidar_learning/install/setup.sh
+=======
+    local-name: /home/tianbot/github/CV/lidar_learning/install/setup.sh
+>>>>>>> c626aaf3d3ba3c2048f74ae97be2de15e90c2d73
