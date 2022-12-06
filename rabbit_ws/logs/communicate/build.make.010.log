@@ -1,0 +1,31 @@
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target _communicate_generate_messages_check_deps_action
+[ 53%] Built target communicate_generate_messages_cpp
+[ 53%] Built target communicate_generate_messages_py
+[ 53%] Built target communicate_generate_messages_nodejs
+[ 53%] Built target communicate_generate_messages_lisp
+[ 53%] Built target communicate_generate_messages_eus
+[35m[1mScanning dependencies of target communicate1[0m
+[ 53%] Built target communicate_generate_messages
+[ 61%] [32mBuilding CXX object CMakeFiles/communicate1.dir/src/communication/Communication_ROS.cpp.o[0m
+[01m[K/home/jialong03/github/CV/rabbit_ws/src/communicate/src/communication/Communication_ROS.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KCommunication_ROS.hpp: 没有那个文件或目录
+ #include [01;31m[K<Communication_ROS.hpp>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/communicate1.dir/build.make:63：CMakeFiles/communicate1.dir/src/communication/Communication_ROS.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:344：CMakeFiles/communicate1.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

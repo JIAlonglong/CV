@@ -1,0 +1,8 @@
+prefix=/home/jialong03/github/CV/rabbit_ws/install
+
+Name: lidar_distinguish
+Description: Description of lidar_distinguish
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

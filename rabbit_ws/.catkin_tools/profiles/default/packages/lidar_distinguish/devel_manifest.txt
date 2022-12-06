@@ -1,0 +1,5 @@
+lidar_distinguish
+/home/jialong03/github/CV/rabbit_ws/devel/.private/lidar_distinguish/cmake.lock /home/jialong03/github/CV/rabbit_ws/devel/./cmake.lock
+/home/jialong03/github/CV/rabbit_ws/devel/.private/lidar_distinguish/lib/pkgconfig/lidar_distinguish.pc /home/jialong03/github/CV/rabbit_ws/devel/lib/pkgconfig/lidar_distinguish.pc
+/home/jialong03/github/CV/rabbit_ws/devel/.private/lidar_distinguish/share/lidar_distinguish/cmake/lidar_distinguishConfig.cmake /home/jialong03/github/CV/rabbit_ws/devel/share/lidar_distinguish/cmake/lidar_distinguishConfig.cmake
+/home/jialong03/github/CV/rabbit_ws/devel/.private/lidar_distinguish/share/lidar_distinguish/cmake/lidar_distinguishConfig-version.cmake /home/jialong03/github/CV/rabbit_ws/devel/share/lidar_distinguish/cmake/lidar_distinguishConfig-version.cmake

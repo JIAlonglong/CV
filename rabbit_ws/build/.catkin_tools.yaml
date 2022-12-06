@@ -1,0 +1,6 @@
+devel_space: /home/jialong03/github/CV/rabbit_ws/devel
+install: false
+install_space: /home/jialong03/github/CV/rabbit_ws/install
+profile: default
+source_space: /home/jialong03/github/CV/rabbit_ws/src
+workspace: /home/jialong03/github/CV/rabbit_ws

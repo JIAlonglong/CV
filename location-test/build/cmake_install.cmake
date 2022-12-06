@@ -131,7 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jialong03/github/CV/location-test/build/gtest/cmake_install.cmake")
-  include("/home/jialong03/github/CV/location-test/build/rm_description-master/cmake_install.cmake")
+  include("/home/jialong03/github/CV/location-test/build/communicate/cmake_install.cmake")
   include("/home/jialong03/github/CV/location-test/build/lidar_distinguish/cmake_install.cmake")
   include("/home/jialong03/github/CV/location-test/build/location/cmake_install.cmake")
   include("/home/jialong03/github/CV/location-test/build/robot_localization_demo/cmake_install.cmake")

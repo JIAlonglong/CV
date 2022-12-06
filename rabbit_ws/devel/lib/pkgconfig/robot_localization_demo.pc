@@ -1,0 +1,1 @@
+/home/jialong03/github/CV/rabbit_ws/devel/.private/robot_localization_demo/lib/pkgconfig/robot_localization_demo.pc

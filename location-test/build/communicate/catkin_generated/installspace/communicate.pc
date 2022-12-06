@@ -1,0 +1,8 @@
+prefix=/home/jialong03/github/CV/location-test/install
+
+Name: communicate
+Description: Description of communicate
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

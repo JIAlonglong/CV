@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libcommunicate1.so -o /home/jialong03/github/CV/rabbit_ws/devel/.private/communicate/lib/libcommunicate1.so CMakeFiles/communicate1.dir/src/communication/Communication_ROS.cpp.o 

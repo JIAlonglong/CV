@@ -1,0 +1,1 @@
+/home/jialong03/github/CV/rabbit_ws/devel/.private/catkin_tools_prebuild/local_setup.bash

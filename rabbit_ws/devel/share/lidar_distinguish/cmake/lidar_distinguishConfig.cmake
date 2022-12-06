@@ -1,0 +1,1 @@
+/home/jialong03/github/CV/rabbit_ws/devel/.private/lidar_distinguish/share/lidar_distinguish/cmake/lidar_distinguishConfig.cmake

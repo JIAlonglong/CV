@@ -1,2 +1,2 @@
-lidar_distinguish:location:rm_description-master:robot_localization_demo
--DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/jialong03/github/CV/location-test/devel -DCMAKE_INSTALL_PREFIX=/home/jialong03/github/CV/location-test/install -G Unix Makefiles
+communicate:lidar_distinguish:location:robot_localization_demo
+-DCATKIN_DEVEL_PREFIX=/home/jialong03/github/CV/location-test/devel -DCMAKE_INSTALL_PREFIX=/home/jialong03/github/CV/location-test/install -G Unix Makefiles
