@@ -1,0 +1,6 @@
+devel_space: /home/jialong03/github/rc _ws/devel
+install: false
+install_space: /home/jialong03/github/rc _ws/install
+profile: default
+source_space: /home/jialong03/github/rc _ws/src
+workspace: /home/jialong03/github/rc _ws

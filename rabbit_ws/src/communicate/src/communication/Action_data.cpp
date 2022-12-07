@@ -3,11 +3,17 @@
 #include <Action_data.hpp>
 #include <communicate/action.h>
 
-int main(int argc, char **argv)
+void deal_with(float angle,float x,float y)
 {
-    ros::init(argc, argv, "rabbit/odom");
-    ros::NodeHandle nh;
     
+
+
+
+}
+int main(int argc, char **argv){
+    ros::init(argc, argv, "rabbit/odometry");
+    ros::NodeHandle nh;
+    ros::Rate loop_rate(10);
     while (ros::ok())
     {
         float data4,data5,data6,data7,data8,data9,data10;
@@ -24,8 +30,10 @@ int main(int argc, char **argv)
 
         pub.publish(CA);
         ROS_INFO("action_data :x is %10f,y is %10f,angle is %10f",CA.x,CA.y,CA.angle);
+        
+    
         ros::spinOnce();
-
+        loop_rate.sleep();
     }
 
     

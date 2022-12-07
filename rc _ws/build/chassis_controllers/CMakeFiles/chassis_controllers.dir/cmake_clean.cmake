@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "/home/jialong03/github/rc _ws/devel/.private/chassis_controllers/lib/libchassis_controllers.pdb"
+  "/home/jialong03/github/rc _ws/devel/.private/chassis_controllers/lib/libchassis_controllers.so"
+  "CMakeFiles/chassis_controllers.dir/src/chassis_base.cpp.o"
+  "CMakeFiles/chassis_controllers.dir/src/swerve.cpp.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/chassis_controllers.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

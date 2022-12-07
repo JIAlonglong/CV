@@ -1,0 +1,1 @@
+/home/jialong03/github/CV/rabbit_ws/devel/.private/communicate/share/communicate/cmake/communicate-msg-extras.cmake

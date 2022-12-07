@@ -11,11 +11,6 @@
 },
 {
   "directory": "/home/jialong03/github/CV/rabbit_ws/build/communicate",
-  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"communicate\\\" -I/home/jialong03/github/CV/rabbit_ws/devel/.private/communicate/include -I/home/jialong03/github/CV/rabbit_ws/src/communicate/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/communicate.dir/src/communication/Action_deal.cpp.o -c /home/jialong03/github/CV/rabbit_ws/src/communicate/src/communication/Action_deal.cpp",
-  "file": "/home/jialong03/github/CV/rabbit_ws/src/communicate/src/communication/Action_deal.cpp"
-},
-{
-  "directory": "/home/jialong03/github/CV/rabbit_ws/build/communicate",
   "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"communicate\\\" -Dcommunicate1_EXPORTS -I/home/jialong03/github/CV/rabbit_ws/devel/.private/communicate/include -I/home/jialong03/github/CV/rabbit_ws/src/communicate/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -o CMakeFiles/communicate1.dir/src/communication/Communication_ROS.cpp.o -c /home/jialong03/github/CV/rabbit_ws/src/communicate/src/communication/Communication_ROS.cpp",
   "file": "/home/jialong03/github/CV/rabbit_ws/src/communicate/src/communication/Communication_ROS.cpp"
 },

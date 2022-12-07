@@ -1,0 +1,8 @@
+prefix=/home/jialong03/github/rc _ws/install
+
+Name: rc_ibus
+Description: Description of rc_ibus
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rc_common

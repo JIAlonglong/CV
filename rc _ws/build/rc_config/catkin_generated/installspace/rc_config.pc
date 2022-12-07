@@ -1,0 +1,8 @@
+prefix=/home/jialong03/github/rc _ws/install
+
+Name: rc_config
+Description: Description of rc_config
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

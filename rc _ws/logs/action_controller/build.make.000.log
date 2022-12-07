@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target action_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/action_controller.dir/src/action_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library "/home/jialong03/github/rc _ws/devel/.private/action_controller/lib/libaction_controller.so"[0m
+[100%] Built target action_controller

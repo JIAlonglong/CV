@@ -1,0 +1,1 @@
+/home/jialong03/github/CV/rabbit_ws/devel/.private/communicate/share/common-lisp/ros/communicate/msg/_package_action.lisp

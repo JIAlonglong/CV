@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target chassis_controllers[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/chassis_controllers.dir/src/chassis_base.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/chassis_controllers.dir/src/swerve.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library "/home/jialong03/github/rc _ws/devel/.private/chassis_controllers/lib/libchassis_controllers.so"[0m
+[100%] Built target chassis_controllers

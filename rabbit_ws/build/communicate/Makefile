@@ -688,33 +688,6 @@ src/communication/Action_data.cpp.s:
 	$(MAKE) -f CMakeFiles/communicate.dir/build.make CMakeFiles/communicate.dir/src/communication/Action_data.cpp.s
 .PHONY : src/communication/Action_data.cpp.s
 
-src/communication/Action_deal.o: src/communication/Action_deal.cpp.o
-
-.PHONY : src/communication/Action_deal.o
-
-# target to build an object file
-src/communication/Action_deal.cpp.o:
-	$(MAKE) -f CMakeFiles/communicate.dir/build.make CMakeFiles/communicate.dir/src/communication/Action_deal.cpp.o
-.PHONY : src/communication/Action_deal.cpp.o
-
-src/communication/Action_deal.i: src/communication/Action_deal.cpp.i
-
-.PHONY : src/communication/Action_deal.i
-
-# target to preprocess a source file
-src/communication/Action_deal.cpp.i:
-	$(MAKE) -f CMakeFiles/communicate.dir/build.make CMakeFiles/communicate.dir/src/communication/Action_deal.cpp.i
-.PHONY : src/communication/Action_deal.cpp.i
-
-src/communication/Action_deal.s: src/communication/Action_deal.cpp.s
-
-.PHONY : src/communication/Action_deal.s
-
-# target to generate assembly for a file
-src/communication/Action_deal.cpp.s:
-	$(MAKE) -f CMakeFiles/communicate.dir/build.make CMakeFiles/communicate.dir/src/communication/Action_deal.cpp.s
-.PHONY : src/communication/Action_deal.cpp.s
-
 src/communication/Communication_ROS.o: src/communication/Communication_ROS.cpp.o
 
 .PHONY : src/communication/Communication_ROS.o
@@ -799,9 +772,6 @@ help:
 	@echo "... src/communication/Action_data.o"
 	@echo "... src/communication/Action_data.i"
 	@echo "... src/communication/Action_data.s"
-	@echo "... src/communication/Action_deal.o"
-	@echo "... src/communication/Action_deal.i"
-	@echo "... src/communication/Action_deal.s"
 	@echo "... src/communication/Communication_ROS.o"
 	@echo "... src/communication/Communication_ROS.i"
 	@echo "... src/communication/Communication_ROS.s"

@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target rc_ibus[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rc_ibus.dir/src/ibus_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rc_ibus.dir/src/ibus.cpp.o[0m
+[100%] [32m[1mLinking CXX executable "/home/jialong03/github/rc _ws/devel/.private/rc_ibus/lib/rc_ibus/rc_ibus"[0m
+[100%] Built target rc_ibus

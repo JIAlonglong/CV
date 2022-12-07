@@ -1,0 +1,1 @@
+/home/jialong03/github/rc _ws/devel/.private/rc_msgs/share/common-lisp/ros/rc_msgs/msg/_package_LpData.lisp

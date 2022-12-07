@@ -1,0 +1,30 @@
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _communicate_generate_messages_check_deps_action
+[ 15%] Built target communicate_generate_messages_lisp
+[ 23%] Built target communicate_generate_messages_eus
+[ 30%] Built target communicate_generate_messages_cpp
+[ 46%] Built target communicate_generate_messages_py
+[ 53%] Built target communicate_generate_messages_nodejs
+[ 53%] Built target communicate_generate_messages
+[ 69%] Built target communicate1
+[ 76%] [32m[1mLinking CXX executable /home/jialong03/github/CV/rabbit_ws/devel/.private/communicate/lib/communicate/communicate[0m
+/usr/bin/ld: CMakeFiles/communicate.dir/src/communication/Action_deal.cpp.o: in function `void std::_Rb_tree<boost::system::error_category const*, std::pair<boost::system::error_category const* const, std::unique_ptr<boost::system::detail::std_category, std::default_delete<boost::system::detail::std_category> > >, std::_Select1st<std::pair<boost::system::error_category const* const, std::unique_ptr<boost::system::detail::std_category, std::default_delete<boost::system::detail::std_category> > > >, boost::system::detail::cat_ptr_less, std::allocator<std::pair<boost::system::error_category const* const, std::unique_ptr<boost::system::detail::std_category, std::default_delete<boost::system::detail::std_category> > > > >::_M_construct_node<std::pair<boost::system::error_category const* const, std::unique_ptr<boost::system::detail::std_category, std::default_delete<boost::system::detail::std_category> > > >(std::_Rb_tree_node<std::pair<boost::system::error_category const* const, std::unique_ptr<boost::system::detail::std_category, std::default_delete<boost::system::detail::std_category> > > >*, std::pair<boost::system::error_category const* const, std::unique_ptr<boost::system::detail::std_category, std::default_delete<boost::system::detail::std_category> > >&&)':
+/usr/include/boost/system/detail/std_interoperability.hpp:83: multiple definition of `main'; CMakeFiles/communicate.dir/src/communication/Action_data.cpp.o:/home/jialong03/github/CV/rabbit_ws/src/communicate/src/communication/Action_data.cpp:7: first defined here
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/communicate.dir/build.make:132：/home/jialong03/github/CV/rabbit_ws/devel/.private/communicate/lib/communicate/communicate] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:190：CMakeFiles/communicate.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

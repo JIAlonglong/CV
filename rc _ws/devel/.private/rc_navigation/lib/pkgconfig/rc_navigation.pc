@@ -1,0 +1,8 @@
+prefix=/home/jialong03/github/rc _ws/devel/.private/rc_navigation
+
+Name: rc_navigation
+Description: Description of rc_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

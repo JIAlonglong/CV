@@ -1,0 +1,4 @@
+Symlinking /home/jialong03/github/rc _ws/devel/lib/pkgconfig/rc_hw.pc
+Symlinking /home/jialong03/github/rc _ws/devel/lib/rc_hw/rc_hw
+Symlinking /home/jialong03/github/rc _ws/devel/share/rc_hw/cmake/rc_hwConfig-version.cmake
+Symlinking /home/jialong03/github/rc _ws/devel/share/rc_hw/cmake/rc_hwConfig.cmake

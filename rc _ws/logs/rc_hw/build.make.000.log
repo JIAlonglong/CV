@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target rc_hw[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/rc_hw.dir/src/hardware_interface/hardware_interface.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rc_hw.dir/src/rc_hw.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rc_hw.dir/src/hardware_interface/can_bus.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rc_hw.dir/src/hardware_interface/gpio_manager.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rc_hw.dir/src/hardware_interface/action_manager.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rc_hw.dir/src/hardware_interface/parse.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/rc_hw.dir/src/hardware_interface/socketcan.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/rc_hw.dir/src/control_loop.cpp.o[0m
+[100%] [32m[1mLinking CXX executable "/home/jialong03/github/rc _ws/devel/.private/rc_hw/lib/rc_hw/rc_hw"[0m
+[100%] Built target rc_hw

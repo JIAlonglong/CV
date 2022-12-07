@@ -1,0 +1,8 @@
+prefix=/home/jialong03/github/rc _ws/devel/.private/rc_description
+
+Name: rc_description
+Description: Description of rc_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

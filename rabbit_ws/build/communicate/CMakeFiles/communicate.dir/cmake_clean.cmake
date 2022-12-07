@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "/home/jialong03/github/CV/rabbit_ws/devel/.private/communicate/lib/communicate/communicate"
   "/home/jialong03/github/CV/rabbit_ws/devel/.private/communicate/lib/communicate/communicate.pdb"
   "CMakeFiles/communicate.dir/src/communication/Action_data.cpp.o"
-  "CMakeFiles/communicate.dir/src/communication/Action_deal.cpp.o"
   "CMakeFiles/communicate.dir/src/communication/Communication_ROS.cpp.o"
 )
 

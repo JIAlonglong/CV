@@ -1,0 +1,1 @@
+/home/jialong03/github/rc _ws/devel/.private/chassis_controllers/share/chassis_controllers/cmake/chassis_controllersConfig-version.cmake

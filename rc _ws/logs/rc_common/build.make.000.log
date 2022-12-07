@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target rc_msgs_generate_messages_cpp[0m
+[  0%] Built target rc_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rc_common[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rc_common.dir/src/filter/filters.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rc_common.dir/src/filter/imu_filter_base.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/rc_common.dir/src/filter/lp_filter.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rc_common.dir/src/filter/imu_complementary_filter.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rc_common.dir/src/tf_rt_broadcaster.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rc_common.dir/src/ori_tool.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library "/home/jialong03/github/rc _ws/devel/.private/rc_common/lib/librc_common.so"[0m
+[100%] Built target rc_common

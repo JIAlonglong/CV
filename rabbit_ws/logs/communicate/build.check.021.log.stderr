@@ -1,0 +1,7 @@
+[31m[1mCMake Error[0m at /home/jialong03/github/CV/rabbit_ws/src/communicate/CMakeLists.txt:163 (target_link_libraries):
+  Target "communicate2" of type EXECUTABLE may not be linked into another
+  target.  One may link only to INTERFACE, OBJECT, STATIC or SHARED
+  libraries, or to executables with the ENABLE_EXPORTS property set.
+
+
+make: *** [Makefile:819：cmake_check_build_system] 错误 1

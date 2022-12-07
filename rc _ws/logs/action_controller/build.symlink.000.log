@@ -1,0 +1,4 @@
+Symlinking /home/jialong03/github/rc _ws/devel/lib/libaction_controller.so
+Symlinking /home/jialong03/github/rc _ws/devel/lib/pkgconfig/action_controller.pc
+Symlinking /home/jialong03/github/rc _ws/devel/share/action_controller/cmake/action_controllerConfig-version.cmake
+Symlinking /home/jialong03/github/rc _ws/devel/share/action_controller/cmake/action_controllerConfig.cmake
